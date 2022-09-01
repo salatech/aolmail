@@ -1,0 +1,237 @@
+
+body {
+  min-width: 1024px;
+ 
+}
+body {
+  font: normal 13px/18px YahooSans,Helvetica Neue,Segoe UI,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+.navbar{
+height: 72px;
+z-index: 20;
+}
+.logo{
+  width: 220px;
+  min-width: 142px;
+}
+.logo img{
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.search-box{
+    min-width: 496px;
+    flex: 1;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.search-container{
+  width: 85%;
+  outline: none;
+  padding: 12px 12px;
+}
+.drop-down{
+ width: 30px;
+ left:85%;
+}
+.search-icon{
+  left: 93%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btn{
+  width: 24px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ 
+}
+.profile-box{
+  height: 66%;
+  min-width: 386px;
+  width: 280px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.name{
+  height: 100%;
+  left: 50%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+ 
+}
+
+.home{
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  left: 80%;
+  margin-right: 2vw;
+}
+
+.name>div>img, .home>div>img{
+ border-radius: 50%;
+ width: 32px;
+ height: 32px;
+ max-width: fit-content;
+ 
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.det{
+ overflow: auto;
+ box-sizing: border-box;
+ display: block;
+  min-width: 421.6px;
+  width: 40vw;
+  right: 0%;
+  height:100;
+  background-color: white;
+  border: 1px solid #e0e4e9;
+  z-index: 4;
+ 
+
+}
+.subdiv-input{
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+.block{
+  padding: 0 20px;
+  color: #0f69ff;
+  border: 1px solid   #0f69ff;
+  line-height: 2.461;
+  font-weight: 500;
+  font-size: 13px;
+}
+.block-1{
+  line-height: 2.461;
+  font-weight: 500;
+  font-size: 13px;
+  color: #0f69ff;
+  padding: 0 20px;
+}
+.name-hover{
+  display: none;
+  height: 150px;
+  width: 300px;
+  right: 0;
+  border-radius: 4px;
+  background-color: #ededf3;
+  border: 1px solid #d8dade;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 36%);
+}
+.desc{
+  position:absolute;
+  height: 90px;
+  width: 100%;
+  top: 10%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid white;
+}
+.desc img{
+border-radius: 50%;
+width: 65px;
+    height: 65px;
+  
+}
+.hi{
+  top: 70%;
+  position:relative;
+ text-align: center;
+ color: black;
+ height:30%;
+ width: 100%;
+ align-items: center;
+ background-color: white;
+}
+.name:hover .name-hover{
+  display: block;
+}
+.second-container{
+  min-width: 1024px;
+  overflow: auto;
+  z-index: 1;
+  
+}
+.sidebar-container{
+  width: 220px;
+  min-width: 142px;
+ background-color: #f1f1f5;
+}
+.btu p{
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+.second-container-2{
+  flex: 1;
+  min-width: 696px;
+  background-color: white;
+  border-right: 1px solid #d8dade;
+
+}
+.container-2-top{
+  min-height: 52px;
+  box-sizing: border-box;
+  align-items: center;
+  border-bottom: 1px solid #d8dade;
+  background-color: white;
+  padding: 16px 12px 12px 8px;
+  height: 52px;
+  justify-content: space-between;
+}
+.second-container-2-bottom{
+
+  height:90%;
+  background-color: white;
+}
+.second-container-3{
+  width:320px;
+  background-color: white;
+  min-width: 186px;
+
+}
+.settings-details{
+  margin-right: 5px;
+  height: 100;
+  overflow-y: scroll;
+  width: 300px;
+  right: 0;
+  top: 5%;
+  padding-top: 10px;
+  justify-content: center;
+  color: black;
+  background-color: #f7f8ff;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 36%);
+  border: 1px solid #d8dade;
+}
+.uli{
+list-style-type: none;
+ width: auto;
+ margin: 12px 0 0 -4px;
+ padding: 0;
+ margin-left: 10px;
+ align-items: center;
+}
+.uli li{
+  margin-bottom: 12px;
+  margin-right: 6px;
+  width: 50px;
+  cursor: pointer;
+ 
+
+}
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  cursor: pointer;
+}
