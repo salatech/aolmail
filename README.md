@@ -1,6 +1,6 @@
 # aolmail
 
-This project is a clone version of AOl mail.
+This project is a clone version of AOl mail with a min screen display of 1240px minimum width.
 
 ### Technologies used.
 
